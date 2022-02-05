@@ -5,7 +5,6 @@ import 'package:my_blog/app/model/weather_model.dart';
 
 class DataService {
   Future<WeatherResponse> getWeather(String city) async {
-
     final queryParameters = {
       'q': city,
       'appid': 'bb9f08eb4345ea71f87bef7445d3f7df',
@@ -17,7 +16,6 @@ class DataService {
 
     final response = await http.get(uri);
 
-    print(response.body);
     final json = jsonDecode(response.body);
     return WeatherResponse.fromJson(json);
   }

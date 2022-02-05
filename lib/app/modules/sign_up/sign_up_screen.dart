@@ -7,7 +7,7 @@ import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
-import 'package:my_blog/app/modules/dash_board/create_new_blog.dart';
+import 'package:my_blog/app/modules/create_board/create_new_blog.dart';
 import 'package:my_blog/app/modules/sign_in/sign_in_screen.dart';
 
 class SignUpScreen extends StatefulWidget {

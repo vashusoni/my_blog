@@ -9,8 +9,7 @@ import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:get/get_navigation/src/extension_navigation.dart';
 import 'package:get/get_utils/src/get_utils/get_utils.dart';
-import 'package:my_blog/app/modules/create_blog/all_blog_view.dart';
-import 'package:my_blog/app/modules/dash_board/create_new_blog.dart';
+import 'package:my_blog/app/modules/all_blog/all_blog_view.dart';
 import 'package:my_blog/app/modules/sign_up/sign_up_screen.dart';
 
 class SignInScreen extends StatefulWidget {
